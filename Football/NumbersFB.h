@@ -1,5 +1,5 @@
-void Buzzer(int ms, int buzzer) {
-  for (int i = 0; i < 100; i++)
+void BuzzerF(int ms, int cycle, int buzzer) {
+  for (int i = 0; i < cycle; i++)
   {
     digitalWrite(buzzer, HIGH); // зуммер издает звук, за счет HIGH
     delay(ms);// задержка
